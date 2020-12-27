@@ -5,10 +5,6 @@ function load() {
     var hour = data.getHours();
    // var hour = 8
 
-    if (hour == 1) {
-
-    }
-
     if (hour >= 0 && hour < 12) {
         // bom dia ! 
         img.src = 'dia.png'
