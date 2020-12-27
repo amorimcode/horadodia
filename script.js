@@ -2,8 +2,8 @@ function load() {
     var msg = window.document.getElementById('msg')
     var img = window.document.getElementById('image')
     var data = new Date();
-    // var hour = data.getHours();
-    var hour = 8
+    var hour = data.getHours();
+   // var hour = 8
 
     if (hour == 1) {
 
